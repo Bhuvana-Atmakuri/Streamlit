@@ -91,7 +91,7 @@ st.text(range(10))
 st.write(range(0,10))
 
 from PIL import Image
-imag = Image.open("C:/Users/assr/Desktop/3-2/Academic1.jpg")
+imag = Image.open("fall.jpeg")
 # st.image(imag,width=100,height=100) # Does not accept a height argument.
 imag=imag.resize((500,600))
 st.image(imag,caption="Hey This is my achievement") #Caption adds a small description to the image.
